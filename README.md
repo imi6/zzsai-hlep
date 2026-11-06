@@ -56,7 +56,7 @@ docker run -d --name zzshu-docs -p 8080:80 --restart unless-stopped ghcr.io/imi6
 
 然后访问 http://服务器IP:8080 。更新时重新 `pull`，再删掉旧容器、重新 `run`。
 
-镜像默认是私有的。服务器想免登录拉取的话，到 GitHub 个人主页 → Packages → zzsai-hlep → Package settings，把 Visibility 改成 Public；或者在服务器上用有 `read:packages` 权限的 Token 执行 `docker login ghcr.io`。
+镜像的可见性跟随仓库：仓库公开时，任何人都能免登录拉取。仓库改成私有后，服务器要先用有 `read:packages` 权限的 Token 执行 `docker login ghcr.io`。也可以在 GitHub 个人主页 → Packages → zzsai-hlep → Package settings 里单独调整镜像的 Visibility。
 
 本地构建：`docker build -t zzshu-docs .`
 
