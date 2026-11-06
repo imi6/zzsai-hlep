@@ -1,0 +1,18 @@
+# 吱吱鼠AI 文档站
+# 启动：docker compose up -d
+# 更新：docker compose pull && docker compose up -d
+services:
+  docs:
+    image: ghcr.io/imi6/zzsai-hlep:latest
+    # 想用本地代码构建镜像时，取消下一行注释，然后运行 docker compose up -d --build
+    # build: .
+    container_name: zzshu-docs
+    restart: unless-stopped
+    ports:
+      # 左边是服务器上的端口，按需修改；右边 80 是容器内 nginx 的端口，不要改
+      - "8080:80"
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

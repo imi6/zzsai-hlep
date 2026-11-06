@@ -56,6 +56,17 @@ docker run -d --name zzshu-docs -p 8080:80 --restart unless-stopped ghcr.io/imi6
 
 然后访问 http://服务器IP:8080 。更新时重新 `pull`，再删掉旧容器、重新 `run`。
 
+也可以用仓库里的 [compose.yaml](compose.yaml)，把它放到服务器上任意目录后执行：
+
+```bash
+docker compose up -d                              # 启动
+docker compose pull && docker compose up -d       # 更新到最新镜像
+docker compose logs -f                            # 查看日志
+docker compose down                               # 停止并删除容器
+```
+
+端口在 `compose.yaml` 的 `ports` 里改。
+
 镜像的可见性跟随仓库：仓库公开时，任何人都能免登录拉取。仓库改成私有后，服务器要先用有 `read:packages` 权限的 Token 执行 `docker login ghcr.io`。也可以在 GitHub 个人主页 → Packages → zzsai-hlep → Package settings 里单独调整镜像的 Visibility。
 
 本地构建：`docker build -t zzshu-docs .`
