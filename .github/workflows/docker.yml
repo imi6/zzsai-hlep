@@ -21,7 +21,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # 拉完整历史，页面上的「最后更新」时间才准确
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: docker/setup-qemu-action@v3
       - uses: docker/setup-buildx-action@v3
