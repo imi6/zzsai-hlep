@@ -1,0 +1,2351 @@
+{
+  "updatedAt": "2026-11-06T03:28:38.219Z",
+  "source": "https://zzshu.cc/api/pricing",
+  "groups": [
+    {
+      "id": "Azure-GPT",
+      "desc": "Azure-GPT不可蒸馏",
+      "ratio": 2
+    },
+    {
+      "id": "Azure-GPT可蒸馏",
+      "desc": "Azure-GPT可蒸馏",
+      "ratio": 2.6
+    },
+    {
+      "id": "Claude 0注入开透传",
+      "desc": "不可蒸馏  有注入只是一直没改分组名字 自行测试 测试好再跑",
+      "ratio": 1.1
+    },
+    {
+      "id": "Claude 0注入开透传-可蒸馏",
+      "desc": "可蒸馏  有注入只是一直没改分组名字 自行测试 测试好再跑",
+      "ratio": 1.2
+    },
+    {
+      "id": "Claude Enterprise官转",
+      "desc": "Claude Enterprise官转 可蒸",
+      "ratio": 4.3
+    },
+    {
+      "id": "Claude KIRO",
+      "desc": "Claude KIRO反代",
+      "ratio": 0.2
+    },
+    {
+      "id": "Claude KIRO正价稳定版",
+      "desc": "Claude KIRO正价稳定版",
+      "ratio": 0.3
+    },
+    {
+      "id": "Claude KIRO高智商",
+      "desc": "可看号池 降智赔付2小时以内消耗余额",
+      "ratio": 0.5
+    },
+    {
+      "id": "Claude Max",
+      "desc": "非华强北 保真 可看号池 可外接 不限制客户端 高智商 测试好再跑",
+      "ratio": 1
+    },
+    {
+      "id": "Claude Max-2",
+      "desc": "非华强北 保真 可看号池 可外接 不限制客户端 高智商 测试好再跑",
+      "ratio": 1
+    },
+    {
+      "id": "Claude Max-3",
+      "desc": "非华强北 保真 可看号池 可外接 不限制客户端 高智商 测试好再跑",
+      "ratio": 1
+    },
+    {
+      "id": "Claude 专用1",
+      "desc": "MAX1-3的集合兜底渠道  非华强北 保真 可看号池 可外接 不限制客户端 高智商 测试好再跑",
+      "ratio": 1
+    },
+    {
+      "id": "Claude 优惠",
+      "desc": "自行测试 测试好再跑 不保真 但是能用",
+      "ratio": 0.6
+    },
+    {
+      "id": "Claude 微注入开透传-可蒸馏",
+      "desc": "Claude 微注入开透传-可蒸馏",
+      "ratio": 1.2
+    },
+    {
+      "id": "Claude 微注入开透传-现签",
+      "desc": "不可蒸馏 发现蒸馏禁用账户 目前外接有注入 内接无注入",
+      "ratio": 1.4
+    },
+    {
+      "id": "Claude 特价",
+      "desc": "老毛子渠道 自行测试 测试好再跑 不保真 但是能用",
+      "ratio": 0.8
+    },
+    {
+      "id": "Claude 真0注入开透传",
+      "desc": "复签15%  不可蒸馏 0注入全透 保真 可看号池  发现蒸馏禁用账户",
+      "ratio": 1.4
+    },
+    {
+      "id": "Claude 真0注入开透传-coding-现签",
+      "desc": "假一赔十 |  0 注入｜实签 | 全透 | 保真 | 可蒸 | 给管理｜满血 Claude",
+      "ratio": 1.6
+    },
+    {
+      "id": "Claude 真0注入开透传-可蒸馏",
+      "desc": "复签15%  可蒸馏  0注入全透 保真 可看号池",
+      "ratio": 1.6
+    },
+    {
+      "id": "Claude 真0注入开透传-现签",
+      "desc": "假一赔十 |  0 注入｜实签 | 全透 | 保真 | 可蒸 | 给管理｜满血 Claude",
+      "ratio": 1.9
+    },
+    {
+      "id": "Claude 蒸馏",
+      "desc": "自行测试 测试好再跑 不保真 但是能用",
+      "ratio": 0.8
+    },
+    {
+      "id": "Claude-AWS Bedrock",
+      "desc": "可溯源 全模型 可验证带awsb思考签名 缓存百分之99.9 80tps 1h缓存 可溯源",
+      "ratio": 2.4
+    },
+    {
+      "id": "Claude-顶级华强北",
+      "desc": "Claude-顶级华强北（cctest100分）",
+      "ratio": 0.4
+    },
+    {
+      "id": "DeepSeek",
+      "desc": "DeepSeek-v4.1 flash满血分组！！几乎等于官key 掺水剁屌",
+      "ratio": 0.2
+    },
+    {
+      "id": "DeepSeek官K",
+      "desc": "好K不问出处 稳就是了 支持随便测",
+      "ratio": 0.4
+    },
+    {
+      "id": "GLM",
+      "desc": "GLM",
+      "ratio": 0.2
+    },
+    {
+      "id": "GPT Plus",
+      "desc": "此为普通codex分组 并非plus账号 只是一直没有修改分组名称",
+      "ratio": 0.13
+    },
+    {
+      "id": "GPT Pro",
+      "desc": "GPT Pro",
+      "ratio": 0.25
+    },
+    {
+      "id": "GPT Pro稳定",
+      "desc": "GPT Pro24h稳定分组",
+      "ratio": 0.3
+    },
+    {
+      "id": "GPT Pro高智商",
+      "desc": "GPT Pro高智商",
+      "ratio": 0.3
+    },
+    {
+      "id": "GPT 官KEY",
+      "desc": "GPT 官KEY 有问题请及时反馈",
+      "ratio": 0.45
+    },
+    {
+      "id": "GPT 特价",
+      "desc": "0.09倍率持续到双11-不降智-退款流pro账号",
+      "ratio": 0.09
+    },
+    {
+      "id": "GPTPRO特惠",
+      "desc": "GPTPRO特惠 稳定性未知 一般崩也可能不崩",
+      "ratio": 0.15
+    },
+    {
+      "id": "GPT教学",
+      "desc": "面向 CTF、逆向分析和渗透测试等网络安全教学与学术研究。请遵守法律法规，仅在合法授权范围内使用；发送「宝宝」即可激活。",
+      "ratio": 0.5
+    },
+    {
+      "id": "GPT特惠",
+      "desc": "GPT特惠 稳定性未知 一般崩也可能不崩",
+      "ratio": 0.09
+    },
+    {
+      "id": "Gemini",
+      "desc": "Gemini全家桶",
+      "ratio": 0.23
+    },
+    {
+      "id": "Gemini-Ultra",
+      "desc": "Gemini-Ultra 支持Gemini4全系列模型",
+      "ratio": 0.33
+    },
+    {
+      "id": "Gemini-Vertex",
+      "desc": "Gemini-Vertex 全模型",
+      "ratio": 2
+    },
+    {
+      "id": "Glm官K",
+      "desc": "好K不问出处 稳就是了 支持随便测",
+      "ratio": 0.4
+    },
+    {
+      "id": "Grok Free",
+      "desc": "Grok Free号池",
+      "ratio": 0.04
+    },
+    {
+      "id": "Grok Heavy",
+      "desc": "Grok Heavy号池",
+      "ratio": 0.25
+    },
+    {
+      "id": "Kimi",
+      "desc": "Kimi",
+      "ratio": 0.3
+    },
+    {
+      "id": "Kimi官K",
+      "desc": "好K不问出处 稳就是了 支持随便测",
+      "ratio": 0.4
+    },
+    {
+      "id": "国模聚合",
+      "desc": "国模聚合 有glm/kimi/ds/qewn",
+      "ratio": 0.3
+    }
+  ],
+  "models": [
+    {
+      "name": "claude-3-5-haiku-20241022",
+      "groups": [
+        "Claude 真0注入开透传-可蒸馏"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-3-5-sonnet-20240620",
+      "groups": [
+        "Claude 真0注入开透传-可蒸馏"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-3-5-sonnet-20241022",
+      "groups": [
+        "Claude 真0注入开透传-可蒸馏"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-3-7-sonnet-20250219",
+      "groups": [
+        "Claude 真0注入开透传-可蒸馏"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-fable-5",
+      "groups": [
+        "Claude 0注入开透传",
+        "Claude KIRO正价稳定版",
+        "Claude KIRO高智商",
+        "Claude 专用1",
+        "Claude 蒸馏",
+        "Claude KIRO",
+        "Claude Max-3",
+        "Claude 特价",
+        "Claude 真0注入开透传",
+        "Claude 真0注入开透传-coding-现签",
+        "Claude-顶级华强北",
+        "Claude 0注入开透传-可蒸馏",
+        "Claude 优惠",
+        "Claude 微注入开透传-可蒸馏",
+        "Claude 真0注入开透传-可蒸馏",
+        "Claude 真0注入开透传-现签",
+        "Claude Max",
+        "Claude Max-2",
+        "Claude 微注入开透传-现签"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-fable-5-1",
+      "groups": [
+        "Claude Max-2",
+        "Claude-顶级华强北",
+        "Claude 0注入开透传",
+        "Claude 0注入开透传-可蒸馏",
+        "Claude KIRO正价稳定版",
+        "Claude Max",
+        "Claude Max-3",
+        "Claude 真0注入开透传-coding-现签",
+        "Claude 蒸馏",
+        "Claude KIRO",
+        "Claude KIRO高智商",
+        "Claude 专用1",
+        "Claude 优惠",
+        "Claude 微注入开透传-可蒸馏",
+        "Claude 微注入开透传-现签",
+        "Claude 真0注入开透传-可蒸馏",
+        "Claude 特价",
+        "Claude 真0注入开透传",
+        "Claude 真0注入开透传-现签"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-fable-5.1",
+      "groups": [
+        "Claude KIRO高智商",
+        "Claude KIRO正价稳定版"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-haiku-4-5",
+      "groups": [
+        "Claude KIRO",
+        "Claude 真0注入开透传",
+        "Claude 真0注入开透传-可蒸馏"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-haiku-4-5-20251001",
+      "groups": [
+        "Claude Max-3",
+        "Claude 专用1",
+        "Claude 微注入开透传-可蒸馏",
+        "Claude 特价",
+        "Claude Max-2",
+        "Claude 真0注入开透传-coding-现签",
+        "Claude 真0注入开透传-现签",
+        "Claude 蒸馏",
+        "Claude Max"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-haiku-5-5",
+      "groups": [
+        "Claude KIRO正价稳定版",
+        "Claude 专用1",
+        "Claude 真0注入开透传-可蒸馏",
+        "Claude 0注入开透传",
+        "Claude 微注入开透传-可蒸馏",
+        "Claude 微注入开透传-现签",
+        "Claude-顶级华强北",
+        "Claude Max-3",
+        "Claude 真0注入开透传-coding-现签",
+        "Claude 真0注入开透传-现签",
+        "Claude 0注入开透传-可蒸馏",
+        "Claude Max",
+        "Claude Max-2",
+        "Claude 优惠",
+        "Claude 真0注入开透传"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-opus-4-1-20250805",
+      "groups": [
+        "Claude 真0注入开透传-可蒸馏"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-opus-4-20250514",
+      "groups": [
+        "Claude 真0注入开透传-可蒸馏"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-opus-4-5",
+      "groups": [
+        "Claude 真0注入开透传-可蒸馏",
+        "Claude-顶级华强北",
+        "Claude 微注入开透传-可蒸馏",
+        "Claude 真0注入开透传"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-opus-4-5-20251101",
+      "groups": [
+        "Claude 真0注入开透传",
+        "Claude 真0注入开透传-可蒸馏"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-opus-4-6",
+      "groups": [
+        "Claude Max-3",
+        "Claude 真0注入开透传-现签",
+        "Claude 0注入开透传",
+        "Claude Max",
+        "Claude 专用1",
+        "Claude 优惠",
+        "Claude 真0注入开透传",
+        "Claude 真0注入开透传-coding-现签",
+        "Claude 真0注入开透传-可蒸馏",
+        "Claude KIRO高智商",
+        "Claude 微注入开透传-可蒸馏",
+        "Claude 特价",
+        "Claude 微注入开透传-现签",
+        "Claude 0注入开透传-可蒸馏",
+        "Claude KIRO",
+        "Claude KIRO正价稳定版",
+        "Claude Max-2",
+        "Claude 蒸馏",
+        "Claude-顶级华强北"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-opus-4-7",
+      "groups": [
+        "Claude KIRO高智商",
+        "Claude Max",
+        "Claude 真0注入开透传",
+        "Claude 真0注入开透传-coding-现签",
+        "Claude 蒸馏",
+        "Claude-顶级华强北",
+        "Claude KIRO",
+        "Claude 专用1",
+        "Claude 微注入开透传-现签",
+        "Claude 真0注入开透传-现签",
+        "Claude Max-2",
+        "Claude Max-3",
+        "Claude 优惠",
+        "Claude 特价",
+        "Claude 真0注入开透传-可蒸馏",
+        "Claude 0注入开透传",
+        "Claude KIRO正价稳定版",
+        "Claude 微注入开透传-可蒸馏",
+        "Claude 0注入开透传-可蒸馏"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-opus-4-8",
+      "groups": [
+        "Claude KIRO正价稳定版",
+        "Claude Max",
+        "Claude Max-2",
+        "Claude 特价",
+        "Claude 真0注入开透传-可蒸馏",
+        "Claude-顶级华强北",
+        "Claude Max-3",
+        "Claude 微注入开透传-现签",
+        "Claude 真0注入开透传",
+        "Claude 真0注入开透传-coding-现签",
+        "Claude 真0注入开透传-现签",
+        "Claude 0注入开透传-可蒸馏",
+        "Claude KIRO",
+        "Claude 专用1",
+        "Claude 优惠",
+        "Claude 蒸馏",
+        "Claude 0注入开透传",
+        "Claude KIRO高智商",
+        "Claude 微注入开透传-可蒸馏"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-opus-4.6",
+      "groups": [
+        "Claude KIRO正价稳定版",
+        "Claude KIRO高智商",
+        "Claude KIRO"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-opus-4.7",
+      "groups": [
+        "Claude KIRO",
+        "Claude KIRO正价稳定版",
+        "Claude KIRO高智商"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-opus-4.8",
+      "groups": [
+        "Claude KIRO",
+        "Claude KIRO正价稳定版",
+        "Claude KIRO高智商",
+        "Claude-顶级华强北"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-opus-5",
+      "groups": [
+        "Claude 0注入开透传-可蒸馏",
+        "Claude Max",
+        "Claude 专用1",
+        "Claude 优惠",
+        "Claude 特价",
+        "Claude 真0注入开透传-coding-现签",
+        "Claude 真0注入开透传-现签",
+        "Claude 蒸馏",
+        "Claude KIRO",
+        "Claude KIRO高智商",
+        "Claude 真0注入开透传",
+        "Claude-顶级华强北",
+        "Claude 0注入开透传",
+        "Claude KIRO正价稳定版",
+        "Claude Max-3",
+        "Claude 微注入开透传-可蒸馏",
+        "Claude 微注入开透传-现签",
+        "Claude Max-2",
+        "Claude 真0注入开透传-可蒸馏"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-opus-5-5",
+      "groups": [
+        "Claude Max-3",
+        "Claude 真0注入开透传-coding-现签",
+        "Claude 真0注入开透传-可蒸馏",
+        "Claude Max-2",
+        "Claude 特价",
+        "Claude 真0注入开透传",
+        "Claude 蒸馏",
+        "Claude 微注入开透传-可蒸馏",
+        "Claude KIRO正价稳定版",
+        "Claude KIRO高智商",
+        "Claude 专用1",
+        "Claude 优惠",
+        "Claude-顶级华强北",
+        "Claude KIRO",
+        "Claude 微注入开透传-现签",
+        "Claude 真0注入开透传-现签",
+        "Claude 0注入开透传",
+        "Claude 0注入开透传-可蒸馏",
+        "Claude Max"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-opus-5.5",
+      "groups": [
+        "Claude KIRO",
+        "Claude KIRO正价稳定版",
+        "Claude KIRO高智商",
+        "Claude-顶级华强北"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-sonnet-4-20250514",
+      "groups": [
+        "Claude 真0注入开透传-可蒸馏"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-sonnet-4-5",
+      "groups": [
+        "Claude KIRO",
+        "Claude KIRO正价稳定版",
+        "Claude KIRO高智商",
+        "Claude 微注入开透传-可蒸馏",
+        "Claude 真0注入开透传-可蒸馏"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-sonnet-4-5-20250929",
+      "groups": [
+        "Claude KIRO"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-sonnet-4-6",
+      "groups": [
+        "Claude 专用1",
+        "Claude 微注入开透传-现签",
+        "Claude 真0注入开透传",
+        "Claude 真0注入开透传-coding-现签",
+        "Claude KIRO高智商",
+        "Claude Max-2",
+        "Claude KIRO正价稳定版",
+        "Claude 优惠",
+        "Claude-顶级华强北",
+        "Claude 0注入开透传",
+        "Claude Max",
+        "Claude Max-3",
+        "Claude 特价",
+        "Claude 真0注入开透传-可蒸馏",
+        "Claude 真0注入开透传-现签",
+        "Claude 蒸馏",
+        "Claude 0注入开透传-可蒸馏",
+        "Claude KIRO"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-sonnet-4.5",
+      "groups": [
+        "Claude KIRO正价稳定版",
+        "Claude KIRO高智商",
+        "Claude KIRO"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-sonnet-4.6",
+      "groups": [
+        "Claude KIRO",
+        "Claude KIRO正价稳定版",
+        "Claude KIRO高智商"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-sonnet-5",
+      "groups": [
+        "Claude 真0注入开透传",
+        "Claude Max-2",
+        "Claude 微注入开透传-现签",
+        "Claude 0注入开透传-可蒸馏",
+        "Claude KIRO",
+        "Claude KIRO高智商",
+        "Claude 专用1",
+        "Claude 微注入开透传-可蒸馏",
+        "Claude 真0注入开透传-coding-现签",
+        "Claude 真0注入开透传-可蒸馏",
+        "Claude 蒸馏",
+        "Claude KIRO正价稳定版",
+        "Claude Max-3",
+        "Claude 优惠",
+        "Claude 特价",
+        "Claude 真0注入开透传-现签",
+        "Claude-顶级华强北",
+        "Claude 0注入开透传",
+        "Claude Max"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-sonnet-5-5",
+      "groups": [
+        "Claude 0注入开透传",
+        "Claude KIRO",
+        "Claude 微注入开透传-现签",
+        "Claude 真0注入开透传-coding-现签",
+        "Claude 真0注入开透传-可蒸馏",
+        "Claude-顶级华强北",
+        "Claude 0注入开透传-可蒸馏",
+        "Claude Max-3",
+        "Claude 优惠",
+        "Claude 微注入开透传-可蒸馏",
+        "Claude KIRO正价稳定版",
+        "Claude KIRO高智商",
+        "Claude Max",
+        "Claude 专用1",
+        "Claude 特价",
+        "Claude 真0注入开透传",
+        "Claude 真0注入开透传-现签",
+        "Claude 蒸馏",
+        "Claude Max-2"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "claude-sonnet-5.5",
+      "groups": [
+        "Claude KIRO",
+        "Claude KIRO正价稳定版",
+        "Claude KIRO高智商"
+      ],
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "name": "codex-auto-review",
+      "groups": [
+        "GPT Pro稳定",
+        "GPT Pro高智商",
+        "GPT 官KEY",
+        "GPT Plus",
+        "GPT Pro",
+        "GPTPRO特惠",
+        "GPT教学",
+        "GPT特惠"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "deepseek-flash",
+      "groups": [
+        "DeepSeek官K"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "deepseek-v4-pro",
+      "groups": [
+        "DeepSeek",
+        "DeepSeek官K",
+        "国模聚合"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "deepseek-v4-pro-0813",
+      "groups": [
+        "DeepSeek",
+        "国模聚合"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "deepseek-v4.1-flash",
+      "groups": [
+        "DeepSeek",
+        "DeepSeek官K",
+        "国模聚合"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "deepseek-v4.1-flash-0910",
+      "groups": [
+        "DeepSeek"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "deepseek-v4.1-flash-1017",
+      "groups": [
+        "国模聚合"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "gemini-2.5-flash",
+      "groups": [
+        "Gemini-Vertex",
+        "Gemini"
+      ],
+      "endpoints": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
+      "name": "gemini-2.5-flash-lite",
+      "groups": [
+        "Gemini",
+        "Gemini-Vertex"
+      ],
+      "endpoints": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
+      "name": "gemini-2.5-flash-thinking",
+      "groups": [
+        "Gemini"
+      ],
+      "endpoints": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
+      "name": "gemini-2.5-pro",
+      "groups": [
+        "Gemini-Vertex"
+      ],
+      "endpoints": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
+      "name": "gemini-2.5-pro-preview",
+      "groups": [
+        "Gemini-Vertex"
+      ],
+      "endpoints": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
+      "name": "gemini-3-flash",
+      "groups": [
+        "Gemini"
+      ],
+      "endpoints": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
+      "name": "gemini-3-flash-agent",
+      "groups": [
+        "Gemini"
+      ],
+      "endpoints": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
+      "name": "gemini-3-flash-preview",
+      "groups": [
+        "Gemini-Vertex"
+      ],
+      "endpoints": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
+      "name": "gemini-3.1-flash-image",
+      "groups": [
+        "Gemini"
+      ],
+      "endpoints": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
+      "name": "gemini-3.1-flash-lite",
+      "groups": [
+        "Gemini",
+        "Gemini-Vertex"
+      ],
+      "endpoints": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
+      "name": "gemini-3.1-flash-lite-preview",
+      "groups": [
+        "Gemini-Vertex"
+      ],
+      "endpoints": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
+      "name": "gemini-3.1-pro-preview",
+      "groups": [
+        "Gemini-Vertex"
+      ],
+      "endpoints": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
+      "name": "gemini-3.5-flash",
+      "groups": [
+        "Gemini-Vertex"
+      ],
+      "endpoints": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
+      "name": "gemini-3.5-flash-extra-low",
+      "groups": [
+        "Gemini"
+      ],
+      "endpoints": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
+      "name": "gemini-3.5-flash-lite",
+      "groups": [
+        "Gemini-Vertex",
+        "Gemini"
+      ],
+      "endpoints": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
+      "name": "gemini-3.5-flash-low",
+      "groups": [
+        "Gemini"
+      ],
+      "endpoints": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
+      "name": "gemini-3.6-flash",
+      "groups": [
+        "Gemini-Vertex"
+      ],
+      "endpoints": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
+      "name": "gemini-3.7-flash",
+      "groups": [
+        "Gemini-Vertex"
+      ],
+      "endpoints": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
+      "name": "gemini-3.8-flash",
+      "groups": [
+        "Gemini-Ultra",
+        "Gemini-Vertex"
+      ],
+      "endpoints": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
+      "name": "gemini-3.8-flash-tiered",
+      "groups": [
+        "Gemini"
+      ],
+      "endpoints": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
+      "name": "gemini-4-argon",
+      "groups": [
+        "Gemini-Vertex",
+        "Gemini-Ultra"
+      ],
+      "endpoints": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
+      "name": "gemini-4-argon-high",
+      "groups": [
+        "Gemini-Ultra"
+      ],
+      "endpoints": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
+      "name": "gemini-4-argon-low",
+      "groups": [
+        "Gemini-Ultra"
+      ],
+      "endpoints": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
+      "name": "gemini-4-argon-medium",
+      "groups": [
+        "Gemini-Ultra"
+      ],
+      "endpoints": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
+      "name": "glm-5.1",
+      "groups": [
+        "国模聚合"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "glm-5.2",
+      "groups": [
+        "国模聚合",
+        "GLM"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "glm-5.3",
+      "groups": [
+        "GLM",
+        "Glm官K",
+        "国模聚合"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "glm-5.3-flash",
+      "groups": [
+        "GLM",
+        "Glm官K",
+        "国模聚合"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "glm-5.3-flashx",
+      "groups": [
+        "Glm官K"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "glm-5.3-prime",
+      "groups": [
+        "Glm官K"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "gpt-3.5-turbo",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-3.5-turbo-0125",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-3.5-turbo-0613",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-3.5-turbo-1106",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-3.5-turbo-16k",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-3.5-turbo-16k-0613",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-4-all",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "gpt-4-dalle",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "gpt-4-turbo",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-4-turbo-2024-04-09",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-4.1",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-4.1-2025-04-14",
+      "groups": [
+        "Azure-GPT可蒸馏",
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-4.1-mini",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-4.1-mini-2025-04-14",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-4.1-nano",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-4.1-nano-2025-04-14",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-4o",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-4o-2024-05-13",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-4o-2024-08-06",
+      "groups": [
+        "Azure-GPT可蒸馏",
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-4o-2024-11-20",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-4o-all",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "gpt-4o-image",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "gpt-4o-image-vip",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "gpt-4o-mini",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-4o-mini-2024-07-18",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5-2025-08-07",
+      "groups": [
+        "Azure-GPT可蒸馏",
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5-all",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "gpt-5-codex",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5-codex-high",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5-codex-low",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5-codex-medium",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5-high",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5-low",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5-medium",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5-mini",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5-mini-2025-08-07",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5-minimal",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5-nano",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5-nano-2025-08-07",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5-pro",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5-pro-2025-10-06",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5-thinking-all",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "gpt-5.1",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.1-2025-11-13",
+      "groups": [
+        "Azure-GPT可蒸馏",
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.1-all",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "gpt-5.1-codex",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.1-codex-high",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.1-codex-max",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.1-codex-medium",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.1-codex-mini",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.1-thinking-all",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "gpt-5.2",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.2-2025-12-11",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.2-chat-latest",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.2-codex",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.2-codex-xhigh",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.2-xhigh",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.3-codex",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.3-codex-xhigh",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.4",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.4-2026-03-05",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.4-mini",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.4-mini-2026-03-17",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.4-nano",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.4-nano-2026-03-17",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.4-pro",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.4-pro-2026-03-05",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.6-luna",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.6-luna-2026-07-09",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.6-sol",
+      "groups": [
+        "GPT Pro稳定",
+        "GPT Pro高智商",
+        "GPTPRO特惠",
+        "Azure-GPT可蒸馏",
+        "GPT 官KEY",
+        "GPT 特价",
+        "GPT教学",
+        "GPT特惠",
+        "Azure-GPT",
+        "GPT Plus",
+        "GPT Pro"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.6-terra",
+      "groups": [
+        "Azure-GPT可蒸馏",
+        "GPT Pro",
+        "GPT Pro稳定",
+        "GPT Pro高智商",
+        "GPT 特价",
+        "GPT教学",
+        "Azure-GPT",
+        "GPT Plus",
+        "GPT 官KEY",
+        "GPTPRO特惠",
+        "GPT特惠"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-5.6-terra-2026-07-09",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-6-astra",
+      "groups": [
+        "Azure-GPT",
+        "GPT Plus",
+        "GPT Pro",
+        "GPT Pro稳定",
+        "GPT Pro高智商",
+        "GPT 官KEY",
+        "GPT教学",
+        "Azure-GPT可蒸馏",
+        "GPT 特价",
+        "GPTPRO特惠",
+        "GPT特惠"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-6-luna",
+      "groups": [
+        "GPT Pro",
+        "GPT Pro高智商",
+        "GPTPRO特惠"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-6-sol",
+      "groups": [
+        "GPT特惠",
+        "Azure-GPT",
+        "Azure-GPT可蒸馏",
+        "GPT Plus",
+        "GPT Pro稳定",
+        "GPT Pro高智商",
+        "GPT 官KEY",
+        "GPT 特价",
+        "GPT教学",
+        "GPT Pro",
+        "GPTPRO特惠"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-6.1-sol",
+      "groups": [
+        "Azure-GPT",
+        "GPT Plus",
+        "GPT Pro",
+        "GPT Pro稳定",
+        "GPT 特价",
+        "GPTPRO特惠",
+        "Azure-GPT可蒸馏",
+        "GPT Pro高智商",
+        "GPT 官KEY",
+        "GPT教学",
+        "GPT特惠"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-6.1-terra",
+      "groups": [
+        "GPT Pro",
+        "GPT Pro稳定",
+        "GPT Pro高智商",
+        "GPT 特价",
+        "GPTPRO特惠",
+        "GPT特惠",
+        "GPT Plus"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "gpt-image-1",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "image-generation",
+        "openai"
+      ]
+    },
+    {
+      "name": "gpt-image-1.5",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "image-generation",
+        "openai"
+      ]
+    },
+    {
+      "name": "gpt-image-2",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "image-generation",
+        "openai"
+      ]
+    },
+    {
+      "name": "grok-4.5",
+      "groups": [
+        "Grok Heavy",
+        "Grok Free"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "grok-4.6",
+      "groups": [
+        "Grok Free",
+        "Grok Heavy"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "grok-4.7",
+      "groups": [
+        "Grok Heavy"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "kimi-k2.6",
+      "groups": [
+        "Kimi官K"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "kimi-k2.7-code",
+      "groups": [
+        "Kimi官K"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "kimi-k3",
+      "groups": [
+        "Kimi",
+        "Kimi官K",
+        "国模聚合"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "kimi-k3.1-pro",
+      "groups": [
+        "Kimi",
+        "Kimi官K",
+        "国模聚合"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "o1",
+      "groups": [
+        "Azure-GPT可蒸馏",
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "o1-2024-12-17",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "o1-mini",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "o1-mini-2024-09-12",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "o1-preview",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "o1-preview-2024-09-12",
+      "groups": [
+        "Azure-GPT可蒸馏",
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "o3",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "o3-2025-04-16",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "o3-mini",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "o3-mini-2025-01-31",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "o3-mini-2025-01-31-high",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "o3-mini-2025-01-31-low",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "o3-mini-2025-01-31-medium",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "o3-mini-high",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "o3-mini-low",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "o3-mini-medium",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "o4-mini",
+      "groups": [
+        "Azure-GPT",
+        "Azure-GPT可蒸馏"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "o4-mini-2025-04-16",
+      "groups": [
+        "Azure-GPT可蒸馏",
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai",
+        "openai-response"
+      ]
+    },
+    {
+      "name": "text-embedding-3-large",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "text-embedding-3-small",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "name": "text-embedding-ada-002",
+      "groups": [
+        "Azure-GPT"
+      ],
+      "endpoints": [
+        "openai"
+      ]
+    }
+  ]
+}
