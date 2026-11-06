@@ -45,4 +45,21 @@ scripts/
 
 ## 部署
 
-`npm run build` 之后，把 `docs/.vitepress/dist` 部署到任意静态托管（Nginx、Cloudflare Pages、Vercel 等）。需要部署在子路径时，在 `config.mts` 里设置 `base`。
+### Docker
+
+推送到 `main` 分支后，GitHub Actions 会自动构建镜像，推送到 `ghcr.io/imi6/zzsai-hlep`（同时支持 amd64 和 arm64）。打 `v1.2.3` 这样的标签还会额外生成 `1.2.3`、`1.2` 版本标签。
+
+```bash
+docker pull ghcr.io/imi6/zzsai-hlep:latest
+docker run -d --name zzshu-docs -p 8080:80 --restart unless-stopped ghcr.io/imi6/zzsai-hlep:latest
+```
+
+然后访问 http://服务器IP:8080 。更新时重新 `pull`，再删掉旧容器、重新 `run`。
+
+镜像默认是私有的。服务器想免登录拉取的话，到 GitHub 个人主页 → Packages → zzsai-hlep → Package settings，把 Visibility 改成 Public；或者在服务器上用有 `read:packages` 权限的 Token 执行 `docker login ghcr.io`。
+
+本地构建：`docker build -t zzshu-docs .`
+
+### 静态托管
+
+`npm run build` 之后，把 `docs/.vitepress/dist` 部署到任意静态托管（Nginx、Cloudflare Pages、Vercel 等），Nginx 配置可以参考 `docker/nginx.conf`。需要部署在子路径时，在 `config.mts` 里设置 `base`。

@@ -273,7 +273,7 @@ watch(client, (id) => {
 </template>
 
 <style scoped>
-.zw { max-width: 1040px; margin: 0 auto; padding: 32px 24px 64px; }
+.zw { max-width: 1040px; margin: 0 auto; padding: 32px 32px 64px; }
 .zw-hero { display: flex; gap: 20px; align-items: center; margin-bottom: 28px; }
 .zw-hero-logo { width: 72px; height: 72px; border-radius: 18px; flex: none; box-shadow: 0 6px 20px rgba(43, 108, 233, 0.25); }
 .zw-hero h1 { font-size: 28px; line-height: 1.3; font-weight: 700; margin: 0 0 6px; }
